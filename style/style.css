@@ -5,6 +5,7 @@ table {
     border-collapse: separate;
     text-indent: initial;
     border-spacing: 2px;
+    background-color: rgb(240, 248, 255);
 }
 
 th {
@@ -19,16 +20,16 @@ th {
 }
 
 td {
-    background-color: rgb(240, 248, 255);
     border: 1px solid black;
     padding: 5px;
     display: table-cell;
     vertical-align: inherit;
     font-weight: bold;
-    text-align: center;
+    text-align: center; 
     unicode-bidi: isolate;
 }
 
-tbody:hover{
+tr:hover{
     background-color: rgb(168, 218, 213);
+    cursor: pointer;
 }
